@@ -1,5 +1,5 @@
 //
-//  ITIViewController.h
+//  ITITableViewLearningController.h
 //  TableViewLearning
 //
 //  Created by yousheng chang on 8/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ITIViewController : UIViewController
+@interface ITITableViewLearningController : UITableViewController
 
 @end

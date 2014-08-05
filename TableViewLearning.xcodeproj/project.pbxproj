@@ -14,13 +14,13 @@
 		8FB7E75119914BA900677006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E75019914BA900677006 /* main.m */; };
 		8FB7E75519914BA900677006 /* ITIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E75419914BA900677006 /* ITIAppDelegate.m */; };
 		8FB7E75819914BA900677006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB7E75619914BA900677006 /* Main.storyboard */; };
-		8FB7E75B19914BA900677006 /* ITIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E75A19914BA900677006 /* ITIViewController.m */; };
 		8FB7E75D19914BA900677006 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB7E75C19914BA900677006 /* Images.xcassets */; };
 		8FB7E76419914BA900677006 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB7E76319914BA900677006 /* XCTest.framework */; };
 		8FB7E76519914BA900677006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB7E74419914BA900677006 /* Foundation.framework */; };
 		8FB7E76619914BA900677006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB7E74819914BA900677006 /* UIKit.framework */; };
 		8FB7E76E19914BA900677006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FB7E76C19914BA900677006 /* InfoPlist.strings */; };
 		8FB7E77019914BA900677006 /* TableViewLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E76F19914BA900677006 /* TableViewLearningTests.m */; };
+		8FB7E77B19914CA300677006 /* ITITableViewLearningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E77A19914CA300677006 /* ITITableViewLearningController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		8FB7E75319914BA900677006 /* ITIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITIAppDelegate.h; sourceTree = "<group>"; };
 		8FB7E75419914BA900677006 /* ITIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITIAppDelegate.m; sourceTree = "<group>"; };
 		8FB7E75719914BA900677006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FB7E75919914BA900677006 /* ITIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITIViewController.h; sourceTree = "<group>"; };
-		8FB7E75A19914BA900677006 /* ITIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITIViewController.m; sourceTree = "<group>"; };
 		8FB7E75C19914BA900677006 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FB7E76219914BA900677006 /* TableViewLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB7E76319914BA900677006 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8FB7E76B19914BA900677006 /* TableViewLearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewLearningTests-Info.plist"; sourceTree = "<group>"; };
 		8FB7E76D19914BA900677006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FB7E76F19914BA900677006 /* TableViewLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLearningTests.m; sourceTree = "<group>"; };
+		8FB7E77919914CA300677006 /* ITITableViewLearningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITITableViewLearningController.h; sourceTree = "<group>"; };
+		8FB7E77A19914CA300677006 /* ITITableViewLearningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITITableViewLearningController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		8FB7E74A19914BA900677006 /* TableViewLearning */ = {
 			isa = PBXGroup;
 			children = (
+				8FB7E77919914CA300677006 /* ITITableViewLearningController.h */,
+				8FB7E77A19914CA300677006 /* ITITableViewLearningController.m */,
 				8FB7E75319914BA900677006 /* ITIAppDelegate.h */,
 				8FB7E75419914BA900677006 /* ITIAppDelegate.m */,
 				8FB7E75619914BA900677006 /* Main.storyboard */,
-				8FB7E75919914BA900677006 /* ITIViewController.h */,
-				8FB7E75A19914BA900677006 /* ITIViewController.m */,
 				8FB7E75C19914BA900677006 /* Images.xcassets */,
 				8FB7E74B19914BA900677006 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB7E75119914BA900677006 /* main.m in Sources */,
-				8FB7E75B19914BA900677006 /* ITIViewController.m in Sources */,
 				8FB7E75519914BA900677006 /* ITIAppDelegate.m in Sources */,
+				8FB7E77B19914CA300677006 /* ITITableViewLearningController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
